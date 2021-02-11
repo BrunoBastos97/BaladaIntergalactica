@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaladaIntergalactica.API", "BaladaIntergalactica.API.csproj", "{EE07C5C8-3C88-4EF5-B6AA-EC644ECB8F49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaladaIntergalacticaTest", "..\BaladaIntergalacticaTest\BaladaIntergalacticaTest.csproj", "{26F004E2-E6E4-4B13-9FA5-EF868E63351B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE07C5C8-3C88-4EF5-B6AA-EC644ECB8F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE07C5C8-3C88-4EF5-B6AA-EC644ECB8F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE07C5C8-3C88-4EF5-B6AA-EC644ECB8F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE07C5C8-3C88-4EF5-B6AA-EC644ECB8F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F004E2-E6E4-4B13-9FA5-EF868E63351B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F004E2-E6E4-4B13-9FA5-EF868E63351B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F004E2-E6E4-4B13-9FA5-EF868E63351B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F004E2-E6E4-4B13-9FA5-EF868E63351B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE044680-EA76-46D5-9A58-7DD4EC973CD8}
+	EndGlobalSection
+EndGlobal

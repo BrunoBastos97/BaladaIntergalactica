@@ -1,0 +1,159 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-image: url(./print/alien-1901834_960_720.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative; 
+}
+h3
+{
+  color:white;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*Menu*/
+.menuImg
+{
+    margin-top: -6%;
+    width: 5%;
+    height: 20%; 
+    left: 0.2%;
+    top: 10%;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.8);;
+    background-position: center;
+    background-image: url(./print/menuIcon.png);
+    background-size: 90%;
+    background-repeat: no-repeat; 
+    background-attachment: scroll;
+    position: absolute;
+    z-index: 1;  
+}
+
+.inputMenu input[type="checkbox"]
+{
+  display: none;
+}  
+
+.inputMenu input[type="checkbox"]:checked ~ .menu  nav
+{
+  transform : translateX(50%);
+} 
+.menu
+{
+  position: relative;
+  left: -50%;
+  margin-top: 6%;
+}
+.menu ul
+{
+  list-style: none;
+}
+
+.menu ul li
+{
+  color: white;
+  padding: 15px;
+  position: relative;
+  width: 200px;
+  background-color : rgba(71, 49, 196, 0.8);
+  border-top: 1px solid rgba(91, 129, 148, 0.8);
+  -webkit-tanimation: all 0.3s;
+  -o-transition: all 0.3s; 
+  transition: all 0.3s;
+  cursor: pointer;
+  vertical-align: middle; 
+}
+
+.menu ul li:hover
+{
+  background-color : rgba(71, 49, 196, 0.8);
+  width: 13%;
+  display: block;
+  background-color:  rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: 0.4s;
+  position: relative;
+}
+
+.menu ul li a
+{
+  text-decoration: none;
+}
+
+
+/*Forms*/
+Form
+{
+    background-attachment: fixed;
+    position: absolute;
+    margin: 0%;
+    background-color: rgba(8, 4, 4, .8); 
+    left: 35%;
+    width: 33%;
+    height: 210%;
+    top: -30%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
+Form input
+{
+    margin-top: 3%;
+    position: relative;
+    left: center;
+    width: 60%;
+}
+
+Form h2
+{
+  left: center;
+  width: 60%;
+  height: 10px;
+  position:relative;
+  color: white;
+
+}
+
+Form Button
+{
+  margin: 4%;
+  padding: 1%;
+  position: relative;
+  left: center;
+  width: 30%;
+  background-color: rgba(41, 38, 187, 0.329);
+  border-width: 5px;
+  border-color: white;
+  color: white;
+}
+
+
+Form Button:hover { 
+  border-width: 1px;
+  background-color: rgba(41, 38, 187, 1);
+}
+
+Form select
+{
+  width: 60%;
+  height: 20px;
+  position:relative;
+
+}
+
+
+
