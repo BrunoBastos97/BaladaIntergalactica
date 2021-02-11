@@ -3,7 +3,7 @@ Projeto de uma aplicação que realiza algumas funções de cadastro.
 
 ##  Sobre o Projeto
 
-Esta aplicação oferece uma API, Teste unitarios e um Front end onde poderar estar cadastrando aliens, baladas, objetos proibidos, realizando check in e check out da balada.
+Está aplicação oferece uma API, Teste unitários e um Front end. Onde poderar estar cadastrando aliens, baladas, objetos proibidos, realizando check in e check out da balada.
 
 
 ### 🛠 Ferramentas Utilizadas
@@ -27,18 +27,18 @@ Esta aplicação oferece uma API, Teste unitarios e um Front end onde poderar es
 ### 🤔 Como Utilizar a Aplicação
 
 - Faça o clone da pasta [BaladaIntergalactica](https://github.com/BrunoBastos97/BaladaIntergalactica.git) no github.
-- Instale o SQL Server caso você não tenha.
-- Para Utilizar a aplicação, é preciso migra o banco, para isso obitenha siga as intrução no gif.
+- Instale o SQL Server, caso você não tenha.
+- Para Utilizar a aplicação, é preciso migra o banco, para isso siga as intrução no gif.
 <div align="center">
     <img src="Gif/MigrandoOBancoDeDados.gif"
     alt="Teste Unitario" height="425">    
 </div>
-- Para Utilizar a aplicação, é preciso ter rodar a API, para isso obitenha siga as intrução no gif.
+- Para Utilizar a aplicação, é preciso rodar a API, para isso siga as intrução no gif.
 <div align="center">
     <img src="Gif/API.gif"
     alt="Teste Unitario" height="425">    
 </div>
-- Como Abrir a o front end
+- Como Abrir o front end
 <div align="center">
     <img src="Gif/AbrirFront.gif"
     alt="Teste Unitario" height="425">    
